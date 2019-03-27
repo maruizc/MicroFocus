@@ -1,7 +1,7 @@
 ﻿ @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf16.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("SPEAKERS Shop Now").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf17.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("buy_now").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf18.xml_;_
-Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set "3" @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf19.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set DataTable("nitems", dtGlobalSheet) @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf19.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("productProperties").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf20.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf21.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("3").Click @@ hightlight id_;_10000000_;_script infofile_;_ZIP::ssf22.xml_;_
